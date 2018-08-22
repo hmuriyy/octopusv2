@@ -1,0 +1,328 @@
+body{
+	background-image: url(../images/Under-The-Sea.jpg);
+	background-size: 100%;
+	margin: 0;
+	font-family: 'Comfortaa', cursive;
+	color: snow;
+}
+/*------------------------GRID----------------------------*/
+.container{
+	
+	width: 1170px;
+	display: grid;
+	margin: auto auto;
+	grid-template-areas: "title octopus"
+						 "unit octopus"
+	
+}
+.title{
+	grid-area: title;
+	margin-top: 15%;
+	font-size:23px;
+	font-weight: 500;
+}
+
+.unit{
+	grid-area: unit;
+	margin-top: 0px;
+}
+
+.octopus{
+	grid-area: octopus;
+	text-align: right;
+	width: 66%;
+	
+}
+.banner{
+	background: url('/images/140520040122.jpg') no-repeat fixed;
+	background-size: cover;
+	min-height: 650px;
+	position: relative;
+}
+.bg-color{
+	background-color: RGBA(13, 70, 83, 0.78);
+	min-height: 650px;
+}
+/*-------------------OCTOPUS-------------------------------*/
+.octopus_head{
+	border-top: 7px solid white;
+    width:610px;
+    height:610px;
+    border-radius:350px ;
+    transform: rotate(90deg);
+	margin-top: 10%;
+}
+
+.eye {
+    position: relative;
+    float: left;
+    border: 3px dashed white;
+    background-color: trasnporent;
+    padding: 10px;
+    border-radius: 50%;
+	margin-top: 55px;
+    margin-right: 20px;
+    margin-left: 160px;
+}
+
+.mouth{
+	font-size: 80px;
+    position: absolute;
+    top: 60px;
+    left: 400px;
+}
+.tentacles{
+	margin-left: 15%;
+	display: grid;
+	position: relative;
+	grid-template-areas: "frst_tent"
+						 "scnd_tent"
+						 "thrd_tent"
+						 "fth_tent"
+						 "fiveth_tent"
+						 "sixth_tent"
+						 "svnth_tent"
+						 "eith_tent"
+}
+
+.eye::before {
+    display: block;
+    content: '';
+    background-color: #6abde7;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+	
+}
+.pstyle{
+	position: relative;
+	margin-top: 20px;
+}
+
+.pstyle1{
+	position: relative;
+	margin-top: 12%;
+}
+
+/*-----------OCTOPUS-TENTACLES----------------*/
+
+.reg1{
+	width: 200px;
+	height: 30px;
+	background: grey;
+	margin-top: 5px;
+	top:30px;
+}
+.reg_inner{
+	width: 120px;
+	height: 30px;
+	background: #cccccc;
+	float: right;
+	
+}
+.reg_inner1{
+	width: 120px;
+	height: 30px;
+	background: #cccccc;
+	float: right;
+	position: absolute;
+	margin-top: 35px;
+}
+
+.reg2{
+	width: 20px;
+	height: 30px;
+	background: white;
+	float: right;
+}
+
+.reg3{
+	width: 90px;
+	height: 30px;
+	background: grey;
+	float: right;
+	position: absolute;
+	margin-top: 70px;
+}
+
+.reg8{
+	width: 90px;
+	height: 30px;
+	background: white;
+	float: right;
+	position: absolute;
+	margin-top: 40px;
+}
+
+.fst_tent{
+	position: absolute;
+    margin-top: 23px;
+	grid-area: fst_tent;
+}
+.scnd_tent {
+	grid-area: scnd_tent;
+	position: absolute;
+	margin-top: 100px;
+}
+
+.thrd_tent{
+	grid-area: thrd_tent;
+	position: absolute;
+	margin-top: 177px;
+}
+
+.fth_tent{
+	grid-area: fth_tent;
+	position: absolute;
+	margin-top: 254px;
+}
+
+.fiveth_tent{
+	grid-area: fiveth_tent;
+	position: absolute;
+	margin-top: 331px;
+}
+
+.sixth_tent{
+	grid-area: sixth_tent;
+	position: absolute;
+	margin-top: 408px;
+}
+
+.svnth_tent{
+	grid-area: svnth_tent;
+	position: absolute;
+	margin-top: 485px;
+}
+.eith_tent{
+	grid-area: eith_tent;
+	position: absolute;
+	margin-top: 562px;
+}
+
+/*-----------RECTANGLES FOR OCTOPUS TENTACLES----------------*/
+
+.fst_tent_reg_white{
+	width: 20px;
+	height: 30px;
+	background: white;
+	float: right;
+}
+.fst_tent_reg_grey{
+	width: 100px;
+	height: 30px;
+	background: #cccccc;
+	float: right;
+}
+.scnd_tent_reg_white{
+	width: 50px;
+	height: 30px;
+	background: white;
+	float: right;
+}
+.scnd_tent_reg_grey{
+	width: 130px;
+	height: 30px;
+	background: #cccccc;
+	float: right;
+}
+.thrd_tent_reg_white{
+	width: 50px;
+	height: 30px;
+	background: white;
+	float: right;
+}
+.thrd_tent_reg_grey{
+	width: 110px;
+	height: 30px;
+	background: #cccccc;
+	float: right;
+}
+.fth_tent_reg_white{
+	width: 80px;
+	height: 30px;
+	background: white;
+	float: right;
+}
+.fth_tent_reg_grey{
+	width: 160px;
+	height: 30px;
+	background: #cccccc;
+	float: right;
+}
+.fiveth_tent_reg_white{
+	width: 70px;
+	height: 30px;
+	background: white;
+	float: right;
+}
+.fiveth_tent_reg_grey{
+	width: 150px;
+	height: 30px;
+	background: #cccccc;
+	float: right;
+}
+.sixth_tent_reg_white{
+	width: 85px;
+	height: 30px;
+	background: white;
+	float: right;
+}
+.sixth_tent_reg_grey{
+	width: 160px;
+	height: 30px;
+	background: #cccccc;
+	float: right;
+}
+.svnth_tent_reg_white{
+	width: 25px;
+	height: 30px;
+	background: white;
+	float: right;
+}
+.svnth_tent_reg_grey{
+	width: 120px;
+	height: 30px;
+	background: #cccccc;
+	float: right;
+}
+.eith_tent_reg_white{
+	width: 50px;
+	height: 30px;
+	background: white;
+	float: right;
+}
+.eith_tent_reg_grey{
+	width: 135px;
+	height: 30px;
+	background: #cccccc;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
