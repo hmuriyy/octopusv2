@@ -298,7 +298,7 @@ body{
 		
 	}
 	.reg8{
-		margin-left: 130px;
+		margin-left: 140px;
 	}
 	.title-indent {
 		margin-top: 80px;
@@ -307,13 +307,13 @@ body{
 		margin-left: 110px;	
 	}
 	.title {
-	margin-top: 20px;
+		margin-top: 20px;
 		
 	}
 	.tentacles {
 		text-align: center;
 		margin-left: 80px;
-		margin-top: 50px;
+		margin-top: 60px;
 	}
 	.octopus_head {
 		display: none;
