@@ -71,6 +71,7 @@ body{
 .tentacles{
 	position: relative;
 	margin-left: 50px;
+	font-size: 14px;
 	
 }
 
@@ -92,15 +93,18 @@ body{
 	position: relative;
 	margin-top: 70px;
 }
+.title-indent{
+	margin-top: 140px;
+}
 
 /*-----------OCTOPUS-TENTACLES----------------*/
 
 .reg1{
 	width: 200px;
-	height: 30px;
+	height: 26px;
 	background: grey;
 	margin-top: 5px;
-	top:30px;
+	top:20px;
 }
 .reg_inner{
 	width: 120px;
@@ -144,144 +148,189 @@ body{
 }
 
 .fst_tent{
-    margin-top: 0px;
+    margin-top: 15px;
 	position: absolute;
 }
 .scnd_tent {
 	position: absolute;
-	margin-top: 77px;
+	margin-top: 85px;
 }
 
 .thrd_tent{
 	position: absolute;
-	margin-top: 149px;
+	margin-top: 162px;
 }
 
 .fth_tent{
 	position: absolute;
-	margin-top: 221px;
+	margin-top: 244px;
 }
 
 .fiveth_tent{
 	position: absolute;
-	margin-top: 298px;
+	margin-top: 327px;
 }
 
 .sixth_tent{
 	position: absolute;
-	margin-top: 375px;
+	margin-top: 409px;
 }
 
 .svnth_tent{
 	position: absolute;
-	margin-top: 452px;
+	margin-top: 495px;
 }
 .eith_tent{
 	position: absolute;
-	margin-top: 529px;
+	margin-top: 575px;
 }
 
 /*-----------RECTANGLES FOR OCTOPUS TENTACLES----------------*/
 
 .fst_tent_reg_white{
 	width: 20px;
-	height: 30px;
+	height: 26px;
 	background: black;
 	float: right;
 }
 .fst_tent_reg_grey{
 	width: 100px;
-	height: 30px;
+	height: 26px;
 	background: #cccccc;
 	float: right;
 }
 .scnd_tent_reg_white{
 	width: 50px;
-	height: 30px;
+	height: 26px;
 	background: black;
 	float: right;
 }
 .scnd_tent_reg_grey{
 	width: 130px;
-	height: 30px;
+	height: 26px;
 	background: #cccccc;
 	float: right;
 }
 .thrd_tent_reg_white{
 	width: 50px;
-	height: 30px;
+	height: 26px;
 	background: black;
 	float: right;
 }
 .thrd_tent_reg_grey{
 	width: 110px;
-	height: 30px;
+	height: 26px;
 	background: #cccccc;
 	float: right;
 }
 .fth_tent_reg_white{
 	width: 80px;
-	height: 30px;
+	height: 26px;
 	background: black;
 	float: right;
 }
 .fth_tent_reg_grey{
 	width: 160px;
-	height: 30px;
+	height: 26px;
 	background: #cccccc;
 	float: right;
 }
 .fiveth_tent_reg_white{
 	width: 95px;
-	height: 30px;
+	height: 26px;
 	background: black;
 	float: right;
 }
 .fiveth_tent_reg_grey{
 	width: 150px;
-	height: 30px;
+	height: 26px;
 	background: #cccccc;
 	float: right;
 }
 .sixth_tent_reg_white{
 	width: 85px;
-	height: 30px;
+	height: 26px;
 	background: black;
 	float: right;
 }
 .sixth_tent_reg_grey{
 	width: 160px;
-	height: 30px;
+	height: 26px;
 	background: #cccccc;
 	float: right;
 }
 .svnth_tent_reg_white{
 	width: 25px;
-	height: 30px;
+	height: 26px;
 	background: black;
 	float: right;
 }
 .svnth_tent_reg_grey{
 	width: 120px;
-	height: 30px;
+	height: 26px;
 	background: #cccccc;
 	float: right;
 }
 .eith_tent_reg_white{
 	width: 50px;
-	height: 30px;
+	height: 26px;
 	background: black;
 	float: right;
 }
 .eith_tent_reg_grey{
 	width: 135px;
-	height: 30px;
+	height: 26px;
 	background: #cccccc;
 	float: right;
 }
 
-
-
+@media only screen and (max-width : 480px) {
+ 
+	.container {
+		width: 360px;
+		margin: auto auto;
+		position: relative;
+	
+	}
+	.unit{
+		margin: 0;
+		margin-top: 30px;
+		
+	}
+	.reg8{
+		margin-left: 130px;
+	}
+	.title-indent {
+		margin-top: 80px;
+	}
+	.reg_inner1{
+		margin-left: 110px;	
+	}
+	.title {
+	margin-top: 20px;
+		
+	}
+	.tentacles {
+		text-align: center;
+		margin-left: 80px;
+		margin-top: 50px;
+	}
+	.octopus_head {
+		display: none;
+	}
+	.content-right{
+		margin: 0;
+		position: relative;
+		
+	}
+	.content-left {
+		text-align: center;
+		width: auto;
+		position: relative;
+	}
+	
+	
+}
 
 
 
