@@ -285,7 +285,10 @@ body{
 }
 
 @media only screen and (max-width : 480px) {
- 
+	body{
+		background-image: url(https://png.pngtree.com/element_origin_min_pic/16/08/09/1757a9a1056d2e9.jpg);
+		font-weight: 700;
+	}	
 	.container {
 		width: 360px;
 		margin: auto auto;
@@ -304,7 +307,7 @@ body{
 		margin-top: 80px;
 	}
 	.reg_inner1{
-		margin-left: 120px;	
+		margin-left: 122px;	
 	}
 	.title {
 		margin-top: 20px;
@@ -314,6 +317,7 @@ body{
 		text-align: center;
 		margin-left: 80px;
 		margin-top: 70px;
+		font-weight: 900;
 	}
 	.octopus_head {
 		display: none;
